@@ -9,10 +9,11 @@ import MainHeader from './MainHeader';
 **/
 
 const Header = (props) => {
+    const brandName = 'START BOOTSTRAP';
     return (
         <>
-            <MainHeader />
-            <Hero />
+            <MainHeader titles={brandName} />
+            <Hero titles={brandName} />
         </>
     )
 

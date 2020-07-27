@@ -5,7 +5,8 @@ import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap'
 * @function MainHeader 
 **/
 
-const MainHeader = (props) => {
+const MainHeader = ({ titles }) => {
+
     const [show, setShow] = useState(true);
     const [position, setPosition] = useState(0);
     useEffect(() => {
@@ -25,7 +26,7 @@ const MainHeader = (props) => {
         <>
             <Navbar collapseOnSelect expand="lg" className="navbar navbar-expand-lg bg-secondary text-uppercase {show ? 'sticky' : 'hidden'}" id="mainNav">
                 <Container>
-                    <Navbar.Brand href="#home">Bootstrap</Navbar.Brand>
+                    <Navbar.Brand href="#home">{titles}</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" className="bg-primary text-white" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="ml-auto">
