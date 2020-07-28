@@ -13,7 +13,7 @@ const Portfolio = (props) => {
     return (
         <section className='page-section portfolio' id="portfolio">
             <Container>
-                <SectionTitle heading='Portfolio' />
+                <SectionTitle heading='Portfolio' textColor="text-secondary" />
                 <Row>
                     <Col lg="4" md='6' className="mb-5">
                         <PortfolioItems imgesItem='cabin.png' />

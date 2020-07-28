@@ -4,6 +4,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Header from './Component/Header';
 import Portfolio from './Component/Section/Portfolio';
+import About from './Component/Section/About';
+import Contact from './Component/Section/Contact';
+import Footer from './Component/Footer';
 
 
 function App() {
@@ -15,6 +18,9 @@ function App() {
         </Switch>
         <Header />
         <Portfolio />
+        <About />
+        <Contact />
+        <Footer />
       </HashRouter>
     </div>
   );
