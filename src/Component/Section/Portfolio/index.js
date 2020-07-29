@@ -16,22 +16,22 @@ const Portfolio = (props) => {
                 <SectionTitle heading='Portfolio' textColor="text-secondary" />
                 <Row>
                     <Col lg="4" md='6' className="mb-5">
-                        <PortfolioItems imgesItem='cabin.png' />
+                        <PortfolioItems imgesItem='cabin.png' Title="Log Cabin" textColor="text-secondary" />
                     </Col>
                     <Col lg="4" md='6' className="mb-5">
-                        <PortfolioItems imgesItem='cake.png' />
+                        <PortfolioItems imgesItem='cake.png' Title="Tasty Cake" textColor="text-secondary" />
                     </Col>
                     <Col lg="4" md='6' className="mb-5">
-                        <PortfolioItems imgesItem='circus.png' />
+                        <PortfolioItems imgesItem='circus.png' Title="Circus Tent" textColor="text-secondary" />
                     </Col>
                     <Col lg="4" md='6' className="mb-5">
-                        <PortfolioItems imgesItem='game.png' />
+                        <PortfolioItems imgesItem='game.png' Title="Controller" textColor="text-secondary" />
                     </Col>
                     <Col lg="4" md='6' className="mb-5">
-                        <PortfolioItems imgesItem='safe.png' />
+                        <PortfolioItems imgesItem='safe.png' Title="Locked Safe" textColor="text-secondary" />
                     </Col>
                     <Col lg="4" md='6' className="mb-5">
-                        <PortfolioItems imgesItem='submarine.png' />
+                        <PortfolioItems imgesItem='submarine.png' Title="Submarine" textColor="text-secondary" />
                     </Col>
                 </Row>
             </Container>

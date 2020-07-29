@@ -7,7 +7,7 @@ import React from 'react'
 
 const WidgetTitle = ({ widgetTitle }) => {
     return (
-        <h4 class="text-uppercase mb-4">{widgetTitle}</h4>
+        <h4 className="text-uppercase mb-4">{widgetTitle}</h4>
     )
 
 }

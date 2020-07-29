@@ -7,6 +7,7 @@ import Portfolio from './Component/Section/Portfolio';
 import About from './Component/Section/About';
 import Contact from './Component/Section/Contact';
 import Footer from './Component/Footer';
+import BtmFooter from './Component/BtmFooter';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <About />
         <Contact />
         <Footer />
+        <BtmFooter />
       </HashRouter>
     </div>
   );

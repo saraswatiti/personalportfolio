@@ -1,5 +1,5 @@
 import React from 'react'
-import WidgetTitle from '../WidgetTitle'
+
 
 /**
 * @author
@@ -9,7 +9,6 @@ import WidgetTitle from '../WidgetTitle'
 const Widget = (props) => {
     return (
         <div>
-            <WidgetTitle widgetTitle="Location" />
             {props.children}
         </div>
     )

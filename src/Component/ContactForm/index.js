@@ -9,7 +9,7 @@ import ControlGroup from '../Common/ControlGroup'
 
 const ContactForm = (props) => {
     return (
-        <Form id="contactForm" name="sentMessage" novalidate="novalidate">
+        <Form id="contactForm" name="sentMessage" noValidate="novalidate">
             <div className='control-group'>
                 <ControlGroup labelTitle='Name' id='name' type="text" placeholder="Name" ValideMessage="Please enter your name." />
             </div>
