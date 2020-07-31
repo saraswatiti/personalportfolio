@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/personalportfolio/static/css/main.c6d3cee8.chunk.css",
-    "main.js": "/personalportfolio/static/js/main.3adb414c.chunk.js",
-    "main.js.map": "/personalportfolio/static/js/main.3adb414c.chunk.js.map",
+    "main.css": "/personalportfolio/static/css/main.d9d1c6bc.chunk.css",
+    "main.js": "/personalportfolio/static/js/main.a8b460e0.chunk.js",
+    "main.js.map": "/personalportfolio/static/js/main.a8b460e0.chunk.js.map",
     "runtime-main.js": "/personalportfolio/static/js/runtime-main.d67c2a1d.js",
     "runtime-main.js.map": "/personalportfolio/static/js/runtime-main.d67c2a1d.js.map",
     "static/css/2.af3c1da9.chunk.css": "/personalportfolio/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.a9d42ff7.chunk.js": "/personalportfolio/static/js/2.a9d42ff7.chunk.js",
-    "static/js/2.a9d42ff7.chunk.js.map": "/personalportfolio/static/js/2.a9d42ff7.chunk.js.map",
+    "static/js/2.7782c575.chunk.js": "/personalportfolio/static/js/2.7782c575.chunk.js",
+    "static/js/2.7782c575.chunk.js.map": "/personalportfolio/static/js/2.7782c575.chunk.js.map",
     "index.html": "/personalportfolio/index.html",
-    "precache-manifest.18d4ce814984c3c51e75986fa9fc7369.js": "/personalportfolio/precache-manifest.18d4ce814984c3c51e75986fa9fc7369.js",
+    "precache-manifest.5478695370fe0ddfa176b72a314d2827.js": "/personalportfolio/precache-manifest.5478695370fe0ddfa176b72a314d2827.js",
     "service-worker.js": "/personalportfolio/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/personalportfolio/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.c6d3cee8.chunk.css.map": "/personalportfolio/static/css/main.c6d3cee8.chunk.css.map",
-    "static/js/2.a9d42ff7.chunk.js.LICENSE.txt": "/personalportfolio/static/js/2.a9d42ff7.chunk.js.LICENSE.txt",
+    "static/css/main.d9d1c6bc.chunk.css.map": "/personalportfolio/static/css/main.d9d1c6bc.chunk.css.map",
+    "static/js/2.7782c575.chunk.js.LICENSE.txt": "/personalportfolio/static/js/2.7782c575.chunk.js.LICENSE.txt",
     "static/media/avataaars.svg": "/personalportfolio/static/media/avataaars.81899e18.svg",
     "static/media/cabin.png": "/personalportfolio/static/media/cabin.56ec4ee7.png",
     "static/media/cake.png": "/personalportfolio/static/media/cake.a29c0b43.png",
@@ -26,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.d67c2a1d.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.a9d42ff7.chunk.js",
-    "static/css/main.c6d3cee8.chunk.css",
-    "static/js/main.3adb414c.chunk.js"
+    "static/js/2.7782c575.chunk.js",
+    "static/css/main.d9d1c6bc.chunk.css",
+    "static/js/main.a8b460e0.chunk.js"
   ]
 }
