@@ -10262,9 +10262,10 @@ form .row:first-child .floating-label-form-group {
 
 .sticky{
     visibility:visible;
-    transition: 2s all ease-in-out !important;
+    transition: 0.5s all ease-in-out !important;
 }
 .hidden{
     visibility: hidden;
-    transition: 2s all ease-in-out !important; 
+    transition: 0.5s all ease-in-out !important; 
+    transform: translateY(-100%);
 }

@@ -19,12 +19,15 @@ const MainHeader = ({ titles }) => {
     }, [position]);
 
     const handle = () => {
-        const prevpostion = document.body.getBoundingClientRect().top;
-        setPosition(prevpostion);
-        setShow(prevpostion > position);
-        console.log(prevpostion);
-        console.log(position);
-        console.log(show);
+        let prevpostion = document.body.getBoundingClientRect().top;
+
+        setTimeout(() => {
+            setPosition(prevpostion);
+            if (prevpostion !== position) {
+                setShow(prevpostion > position);
+            }
+
+        }, 500);
     }
 
     return (
@@ -35,15 +38,9 @@ const MainHeader = ({ titles }) => {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" className="bg-primary text-white" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="ml-auto">
-                            <Nav.Link href="#features">Features</Nav.Link>
-                            <Nav.Link href="#pricing">Pricing</Nav.Link>
-                            <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-                                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                                <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-                            </NavDropdown>
+                            <Nav.Link href="#portfolio" className="py-3 px-0 px-lg-3">Portfolio</Nav.Link>
+                            <Nav.Link href="#about" className="py-3 px-0 px-lg-3">About</Nav.Link>
+                            <Nav.Link href="#contact" className="py-3 px-0 px-lg-3">Contact</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

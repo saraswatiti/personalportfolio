@@ -10,7 +10,7 @@ const BtmFooter = (props) => {
     return (
         <div className="copyright py-4 text-center text-white">
             <Container>
-                <small>Copyright © Your Website 2020</small>
+                <small>Copyright © <a href="https://github.com/saraswatiti">Saraswati Timsina</a> 2020 </small>
             </Container>
         </div>
     )
