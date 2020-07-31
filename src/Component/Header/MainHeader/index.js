@@ -1,30 +1,35 @@
-import React, { useState, useEffect } from 'react'
-import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap'
+import React, { useEffect, useState } from 'react';
+import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap';
 /**
 * @author
 * @function MainHeader 
 **/
 
 const MainHeader = ({ titles }) => {
-
     const [show, setShow] = useState(true);
     const [position, setPosition] = useState(0);
+
     useEffect(() => {
-        handle();
         window.addEventListener('scroll', handle);
+        handle();
         return () => {
             window.removeEventListener('scroll', handle);
         }
-    }, [position])
-    const handle = () => {
-        setPosition(document.body.getBoundingClientRect().top);
-        setShow(document.body.getBoundingClientRect().top > position)
 
+    }, [position]);
+
+    const handle = () => {
+        const prevpostion = document.body.getBoundingClientRect().top;
+        setPosition(prevpostion);
+        setShow(prevpostion > position);
+        console.log(prevpostion);
+        console.log(position);
+        console.log(show);
     }
 
     return (
         <>
-            <Navbar collapseOnSelect expand="lg" className="navbar navbar-expand-lg bg-secondary text-uppercase {show ? 'sticky' : 'hidden'}" id="mainNav">
+            <Navbar collapseOnSelect expand="lg" className={`bg-secondary text-uppercase ${show ? 'sticky' : 'hidden'}`} id="mainNav" fixed="top">
                 <Container>
                     <Navbar.Brand href="#home">{titles}</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" className="bg-primary text-white" />

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Hero from './Hero';
 import MainHeader from './MainHeader';
 
@@ -9,6 +9,10 @@ import MainHeader from './MainHeader';
 **/
 
 const Header = (props) => {
+
+
+
+
     const brandName = 'START BOOTSTRAP';
     return (
         <>

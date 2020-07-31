@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Modal, ModalDialog, Container, Row, Col, ModalBody } from 'react-bootstrap';
+import { Button, Modal, Container, Row, Col, ModalBody } from 'react-bootstrap';
 import { FaRegWindowClose } from "react-icons/fa";
 import SectionTitle from '../SectionTitle';
 
